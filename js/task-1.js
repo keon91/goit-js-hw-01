@@ -1,7 +1,7 @@
-function makeTransaction {
+function makeTransaction (quantity, pricePerDroid){
     quantity
     pricePerDroid
-    "You ordered <quantity> droids worth <totalPrice> credits!"
+    return `You ordered ${quantity} droids worth ${pricePerDroid} credits!`
 }
 
 
